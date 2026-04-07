@@ -2291,21 +2291,6 @@
  "orientation":"orthogonal",
  "properties":[
         {
-         "name":"assignedCodes",
-         "type":"string",
-         "value":"{}"
-        }, 
-        {
-         "name":"assignedCodes:persist",
-         "type":"bool",
-         "value":true
-        }, 
-        {
-         "name":"assignedCodes:public",
-         "type":"bool",
-         "value":true
-        }, 
-        {
          "name":"mapCopyright",
          "type":"string",
          "value":"tbd"
