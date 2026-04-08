@@ -2306,6 +2306,21 @@
          "value":true
         }, 
         {
+         "name":"currentSemesterM3",
+         "type":"string",
+         "value":"WS2526"
+        }, 
+        {
+         "name":"currentSemesterM3:persist",
+         "type":"bool",
+         "value":true
+        }, 
+        {
+         "name":"currentSemesterM3:public",
+         "type":"bool",
+         "value":true
+        }, 
+        {
          "name":"mapCopyright",
          "type":"string",
          "value":"tbd"

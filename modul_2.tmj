@@ -2232,6 +2232,21 @@
          "value":true
         }, 
         {
+         "name":"currentSemesterM2",
+         "type":"string",
+         "value":"WS2526"
+        }, 
+        {
+         "name":"currentSemesterM2:persist",
+         "type":"bool",
+         "value":true
+        }, 
+        {
+         "name":"currentSemesterM2:public",
+         "type":"bool",
+         "value":true
+        }, 
+        {
          "name":"mapCopyright",
          "type":"string",
          "value":"tbd"
