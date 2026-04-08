@@ -2217,17 +2217,17 @@
  "orientation":"orthogonal",
  "properties":[
         {
-         "name":"assignedCodes",
+         "name":"assignedCodesM2",
          "type":"string",
          "value":"{}"
         }, 
         {
-         "name":"assignedCodes:persist",
+         "name":"assignedCodesM2:persist",
          "type":"bool",
          "value":true
         }, 
         {
-         "name":"assignedCodes:public",
+         "name":"assignedCodesM2:public",
          "type":"bool",
          "value":true
         }, 

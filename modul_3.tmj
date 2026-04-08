@@ -2291,17 +2291,17 @@
  "orientation":"orthogonal",
  "properties":[
         {
-         "name":"assignedCodes",
+         "name":"assignedCodesM3",
          "type":"string",
          "value":"{}"
         }, 
         {
-         "name":"assignedCodes:persist",
+         "name":"assignedCodesM3:persist",
          "type":"bool",
          "value":true
         }, 
         {
-         "name":"assignedCodes:public",
+         "name":"assignedCodesM3:public",
          "type":"bool",
          "value":true
         }, 
