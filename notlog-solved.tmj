@@ -3262,6 +3262,60 @@
                  "width":164.447,
                  "x":855.109833333333,
                  "y":368.610333333333
+                }, 
+                {
+                 "height":84,
+                 "id":50,
+                 "name":"currentSemesterM4",
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"WS2526"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"public",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":60.5,
+                 "x":1049.083,
+                 "y":2098.915
+                }, 
+                {
+                 "height":91,
+                 "id":51,
+                 "name":"assignedCodesM4",
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"{}"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"public",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":75,
+                 "x":1042.5,
+                 "y":2210.085
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -4206,7 +4260,7 @@
          "y":0
         }],
  "nextlayerid":64,
- "nextobjectid":50,
+ "nextobjectid":52,
  "orientation":"orthogonal",
  "properties":[
         {
