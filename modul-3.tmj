@@ -2077,6 +2077,61 @@
                  "width":34.7386,
                  "x":357.1307,
                  "y":2044.8939
+                }, 
+                {
+                 "height":91,
+                 "id":45,
+                 "name":"assignedCodesM3",
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"{}"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"public",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":75,
+                 "x":557,
+                 "y":2780
+                },
+            
+                {
+                 "height":84,
+                 "id":48,
+                 "name":"currentSemesterM3",
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"WS2526"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"public",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":60.5,
+                 "x":571.75,
+                 "y":2682
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -2286,8 +2341,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":32,
- "nextobjectid":42,
+ "nextlayerid":33,
+ "nextobjectid":49,
  "orientation":"orthogonal",
  "properties":[
         {
