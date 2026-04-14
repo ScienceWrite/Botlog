@@ -81,7 +81,7 @@ WA.onInit().then(async () => {
 
     // Event listener for changes in the current quest
     WA.player.state.onVariableChange('currentQuest').subscribe((newQuestId) => {
-        levelUp("notlog_2", 10);
+        levelUp("botlog_2", 10);
         const newQuest = quests.find((q: { questId: string }) => q.questId === newQuestId);
         if (newQuest) {
             createQuestBanner(newQuest.questId);
@@ -109,7 +109,7 @@ WA.onInit().then(async () => {
             WA.player.state.onVariableChange('4KI').subscribe({
                 next: (newValue) => {
                     if (newValue === "solved") {
-                        levelUp("modul_4", 10);
+                        levelUp("bodul4", 14);
                         console.log(`Variable "4KI" solved. Level up, +10XP`);
                         WA.player.state.currentQuest = "quest28";
                         setTimeout(() => {

@@ -193,7 +193,7 @@ WA.onInit().then(async () => {
             }
             WA.room.setTiles(greenTiles);
             WA.room.setTiles(redTiles);
-               levelUp("modul_3", 10);
+               levelUp("bodul3", 10);
             const cowebsites = await WA.nav.getCoWebSites();
             for (const cowebsite of cowebsites) {
                 cowebsite.close();
@@ -217,7 +217,7 @@ WA.onInit().then(async () => {
             }
             WA.room.setTiles(greenTiles);
             WA.room.setTiles(redTiles);
-               levelUp("modul_3", 10);
+               levelUp("bodul3", 10);
             const cowebsites = await WA.nav.getCoWebSites();
             for (const cowebsite of cowebsites) {
                 cowebsite.close();
@@ -255,7 +255,7 @@ WA.player.state.onVariableChange('currentQuest').subscribe((newQuest) => {
     
     WA.player.state.onVariableChange('Textarten').subscribe((newValue) => {
         if (newValue === "solved") {
-            levelUp("modul_3", 10);
+            levelUp("bodul3", 10);
             console.log(`Variable "Textarten" solved. Level up, +10XP`);
             WA.player.state.currentQuest = "quest18";
             setTimeout(() => {
@@ -270,7 +270,7 @@ WA.player.state.onVariableChange('currentQuest').subscribe((newQuest) => {
 
     WA.player.state.onVariableChange('AllgemeineRegeln').subscribe((newValue) => {
         if (newValue === "solved") {
-            levelUp("modul_3", 10);
+            levelUp("bodul3", 10);
             console.log(`Variable "AllgemeineRegeln" solved. Level up, +10XP`);
             WA.player.state.currentQuest = "quest19";
             setTimeout(() => {
@@ -285,7 +285,7 @@ WA.player.state.onVariableChange('currentQuest').subscribe((newQuest) => {
 
     WA.player.state.onVariableChange('Sprache').subscribe((newValue) => {
         if (newValue === "solved") {
-            levelUp("modul_3", 10);
+            levelUp("bodul3", 10);
             console.log(`Variable "Sprache" solved. Level up, +10XP`);
             WA.player.state.currentQuest = "quest20";
             setTimeout(() => {
@@ -300,7 +300,7 @@ WA.player.state.onVariableChange('currentQuest').subscribe((newQuest) => {
 
     WA.player.state.onVariableChange('Zitieren').subscribe((newValue) => {
         if (newValue === "solved") {
-            levelUp("modul_3", 10);
+            levelUp("bodul3", 10);
             console.log(`Variable "Zitieren" solved. Level up, +10XP`);
             WA.player.state.currentQuest = "quest22";
             setTimeout(() => {
@@ -315,7 +315,7 @@ WA.player.state.onVariableChange('currentQuest').subscribe((newQuest) => {
 
     WA.player.state.onVariableChange('Literaturverzeichnis').subscribe((newValue) => {
         if (newValue === "solved") {
-            levelUp("modul_3", 10);
+            levelUp("bodul3", 10);
             console.log(`Variable "Literaturverzeichnis" solved. Level up, +10XP`);
             WA.player.state.currentQuest = "quest23";
             setTimeout(() => {
@@ -330,7 +330,7 @@ WA.player.state.onVariableChange('currentQuest').subscribe((newQuest) => {
 
     WA.player.state.onVariableChange('Literaturverwaltung').subscribe((newValue) => {
         if (newValue === "solved") {
-            levelUp("modul_3", 10);
+            levelUp("bodul3", 10);
             console.log(`Variable "Literaturverwaltung" solved. Level up, +10XP`);
             WA.player.state.currentQuest = "quest24";
             setTimeout(() => {
@@ -345,7 +345,7 @@ WA.player.state.onVariableChange('currentQuest').subscribe((newQuest) => {
 
     WA.player.state.onVariableChange('Abschlussquiz3').subscribe((newValue) => {
         if (newValue === "solved") {
-            levelUp("modul_3", 10);
+            levelUp("bodul3", 10);
             WA.room.hideLayer("blockPortals");
             console.log(`Variable "finalQuizThree" solved. Level up, +10XP`);
             WA.player.state.currentQuest = "quest26";

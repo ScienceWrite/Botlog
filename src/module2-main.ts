@@ -191,7 +191,7 @@ WA.onInit().then(async () => {
             }
             WA.room.setTiles(greenTiles);
             WA.room.setTiles(redTiles);
-             levelUp("modul_2", 10);
+             levelUp("bodul2", 10);
             const cowebsites = await WA.nav.getCoWebSites();
             for (const cowebsite of cowebsites) {
                 cowebsite.close();
@@ -217,7 +217,7 @@ WA.onInit().then(async () => {
             WA.room.setTiles(redTiles);
                         WA.chat.sendChatMessage("##### 🔍 Weitere Wortschnipsel gefunden!   \n\n \n\n**Prima!** 🎉 Du hast noch mehr **verlorene Wortschnipsel** ✂️ entdeckt!   \n\n \n\nDiese sind entscheidend, um **Lord Modrevolt** 💀 aus unserem System zu **verbannen**.   \n\n🔐 **Merk sie dir gut:**   \n\n \n\n📝 **eine / als / Wissenssammlung**   \n\n \n\n📢 Bleib dran und sammle alle Schnipsel – das Schicksal unseres Kondensatoriums liegt in deinen Händen!  \n\n  ", "Zirze");
 
-             levelUp("modul_2", 10);
+             levelUp("bodul2", 10);
             const cowebsites = await WA.nav.getCoWebSites();
             for (const cowebsite of cowebsites) {
                 cowebsite.close();
@@ -246,7 +246,7 @@ WA.onInit().then(async () => {
             WA.player.state.onVariableChange('PlanungSelbstmanagement').subscribe({
                 next: (newValue) => {
                     if (newValue === "solved") {
-                        levelUp("modul_2", 10);
+                        levelUp("bodul_2", 10);
                         console.log(`Variable "PlanungSelbstmanagement" solved. Level up, +10XP`);
                         WA.player.state.currentQuest = "quest10";
                         setTimeout(() => {
@@ -265,7 +265,7 @@ WA.onInit().then(async () => {
             WA.player.state.onVariableChange('ThemenfindungGliederung').subscribe({
                 next: (newValue) => {
                     if (newValue === "solved") {
-                        levelUp("modul_2", 10);
+                        levelUp("bodul2", 10);
                         console.log(`Variable "ThemenfindungGliederung" solved. Level up, +10XP`);
                         WA.player.state.currentQuest = "quest11";
                         setTimeout(() => {
@@ -284,7 +284,7 @@ WA.onInit().then(async () => {
             WA.player.state.onVariableChange('Lesen').subscribe({
                 next: (newValue) => {
                     if (newValue === "solved") {
-                        levelUp("modul_2", 10);
+                        levelUp("bodul2", 10);
                         console.log(`Variable "Lesen" solved. Level up, +10XP`);
                         WA.player.state.currentQuest = "quest14";
                         setTimeout(() => {
@@ -303,7 +303,7 @@ WA.onInit().then(async () => {
             WA.player.state.onVariableChange('Literaturrecherche').subscribe({
                 next: (newValue) => {
                     if (newValue === "solved") {
-                        levelUp("modul_2", 10);
+                        levelUp("bodul2", 10);
                         console.log(`Variable "Literaturrecherche" solved. Level up, +10XP`);
                         WA.player.state.currentQuest = "quest13";
                         setTimeout(() => {
@@ -324,7 +324,7 @@ WA.onInit().then(async () => {
                 next: (newValue) => {
                     if (newValue === "solved") {
                         WA.room.hideLayer("blockPortals");
-                        levelUp("modul_2", 10);
+                        levelUp("bodul2", 10);
                         console.log(`Variable "finalQuizTwo" solved. Level up, +10XP`);
                         WA.player.state.currentQuest = "quest16";
                         setTimeout(() => {
