@@ -65,7 +65,7 @@ const quests = [
     {
         questId: 'quest12',
         questDescription: 'Bearbeite das Lernmaterial zur Literaturrecherche',
-        requireQuest: 'quest11',
+        requireQuest: 'quest12a',
     },
     {
         questId: 'quest13',
